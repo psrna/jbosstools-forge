@@ -27,6 +27,8 @@
    <modules>
       <module>plugins</module>
       <module>tests</module>
+      <module>test-framework</module>
+      <module>itests</module>
       <module>features</module>
       <module>site</module>
    </modules>
@@ -58,6 +60,11 @@
          <id>jbosstools-base</id>
          <layout>p2</layout>
          <url>${jbosstools-base-site}</url>
+      </repository>
+      <repository>
+         <id>jbosstools-tests</id>
+         <layout>p2</layout>
+         <url>${jbosstools-tests-site}</url>
       </repository>
    </repositories>
 </project>
